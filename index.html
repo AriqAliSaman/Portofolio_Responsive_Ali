@@ -1,236 +1,318 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-        <title>Portfolio Ariq Ali Saman - 2021</title>
-    </head>
-    <body>
-        <canvas id="network-canvas"></canvas>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Ariq Ali Saman</a>
-                </div>
+    <title>Portfolio Ariq Ali Saman - 2021</title>
+  </head>
+  <body>
+    <canvas id="network-canvas"></canvas>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Ariq Ali Saman</a>
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>IT'S</span><br>ME</h1>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title"><span>IT'S</span><br />ME</h1>
 
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
-                    </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+            >
+          </div>
 
-                    <img src="assets/img/ali.png" alt="" class="home__img">
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <div class="content">
-                    <h1 class="title">About
-                      <div class="aurora">
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                      </div>
-                    </h1>
-                </div>
+          <img src="assets/img/ali.png" alt="" class="home__img" />
+        </div>
+      </section>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/ali.png" alt="">
-                    </div>
-
-                    <div>
-                        <h2 class="about__subtitle">I'am Ariq Ali Saman</h2>
-                        <span class="about__profession">Front End Developer</span>
-                        <p class="about__text">I am a programmer, I am interested in creating websites, mobile applications, and also games.</p>
-
-                        <div class="about__social">
-                            <div class="account">
-                                <a href="https://instagram.com/arqsamn_"><i class='bx bxl-instagram'></i></a>
-                                <a href="https://www.linkedin.com/in/ariqalisaman/"><i class='bx bxl-linkedin'></i></a>
-                                <a href="https://github.com/AriqAliSaman"><i class='bx bxl-github'></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <div class="content">
-                    <h1 class="title">Skills
-                      <div class="aurora">
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                      </div>
-                    </h1>
-                </div>
-
-                <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        
-                        <h3 class="skills__subtitle">Development</h3>
-                        <span class="skills__name">Html</span>
-                        <span class="skills__name">Css</span>
-                        <span class="skills__name">Javascript</span>
-                        <span class="skills__name">Dart</span>
-                        <span class="skills__name">Flutter</span>
-                        <span class="skills__name">Python</span>
-                        <span class="skills__name">PHP</span>
-                    </div>
-
-                    <div class="skills__img">
-                        <img src="assets/img/programming_edit.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section" id="portfolio">
-                <div class="content">
-                    <h1 class="title">Portfolio
-                      <div class="aurora">
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                      </div>
-                    </h1>
-                </div>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-                        <img src="assets/img/project_1.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/AriqAliSaman/E_Wallet_Mobile_Apps" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/project_2.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/AriqAliSaman/Forum_Web_App" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/project_3.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/AriqAliSaman/E_Commerce_and_Chats_Mobile_Apps" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/project_4.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://play.google.com/store/apps/details?id=com.maxpos.id&hl=id" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/project_5.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <div class="content">
-                    <h1 class="title">Contact
-                      <div class="aurora">
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                      </div>
-                    </h1>
-                </div>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">arqsamn@gmail.com</span>
-
-                        <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+62 896-9647-4710</span>
-
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">South Tangerang</span>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">ARIQ ALI SAMAN</h2>
-                    <p class="footer__text">I'm Ariq Ali Saman and this is my personal website</p>
-                </div>
-
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORE</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">About</a></li>
-                        <li><a href="#skills" class="footer__link">Skills</a></li>
-                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                        <li><a href="#Contact" class="footer__link">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer__data">
-                    <h2 class="footer__title">FOLLOW</h2>
-                    <div class="account">
-                        <a href="https://instagram.com/arqsamn_"><i class='bx bxl-instagram'></i></a>
-                        <a href="https://www.linkedin.com/in/ariqalisaman/"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://github.com/AriqAliSaman"><i class='bx bxl-github'></i></a>
-                    </div>
-                </div>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <div class="content">
+          <h1 class="title">
+            About
+            <div class="aurora">
+              <div class="clr"></div>
+              <div class="clr"></div>
+              <div class="clr"></div>
+              <div class="clr"></div>
             </div>
-        </footer>
+          </h1>
+        </div>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/ali.png" alt="" />
+          </div>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+          <div>
+            <h2 class="about__subtitle">I'am Ariq Ali Saman</h2>
+            <span class="about__profession">Front End Developer</span>
+            <p class="about__text">
+              I am a programmer, I am interested in creating websites, mobile
+              applications, and also games.
+            </p>
+
+            <div class="about__social">
+              <div class="account">
+                <a href="https://instagram.com/arqsamn_"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/ariqalisaman/"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+                <a href="https://github.com/AriqAliSaman"
+                  ><i class="bx bxl-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <div class="content">
+          <h1 class="title">
+            Skills
+            <div class="aurora">
+              <div class="clr"></div>
+              <div class="clr"></div>
+              <div class="clr"></div>
+              <div class="clr"></div>
+            </div>
+          </h1>
+        </div>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            <h3 class="skills__subtitle">Development</h3>
+            <span class="skills__name">Html</span>
+            <span class="skills__name">Css</span>
+            <span class="skills__name">Javascript</span>
+            <span class="skills__name">Dart</span>
+            <span class="skills__name">Flutter</span>
+            <span class="skills__name">Python</span>
+            <span class="skills__name">PHP</span>
+          </div>
+
+          <div class="skills__img">
+            <img src="assets/img/programming_edit.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== PORTFOLIO =====-->
+      <section class="portfolio section" id="portfolio">
+        <div class="content">
+          <h1 class="title">
+            Portfolio
+            <div class="aurora">
+              <div class="clr"></div>
+              <div class="clr"></div>
+              <div class="clr"></div>
+              <div class="clr"></div>
+            </div>
+          </h1>
+        </div>
+
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__img">
+            <img src="assets/img/project_1.png" alt="" />
+            <div class="portfolio__link">
+              <a
+                href="https://github.com/AriqAliSaman/E_Wallet_Mobile_Apps"
+                class="portfolio__link-name"
+              >
+                <p>E-Wallet Mobile Apps (Self Project)</p>
+                <p>Made using Flutter</p>
+                <p class="view-details">View details</p>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/project_2.png" alt="" />
+            <div class="portfolio__link">
+              <a
+                href="https://github.com/AriqAliSaman/Forum_Web_App"
+                class="portfolio__link-name"
+              >
+                <p>Forum Web App (Self Project)</p>
+                <p>Made using Laravel</p>
+                <p class="view-details">View details</p>
+              </a>
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/project_3.png" alt="" />
+            <div class="portfolio__link">
+              <a
+                href="https://github.com/AriqAliSaman/E_Commerce_and_Chats_Mobile_Apps"
+                class="portfolio__link-name"
+              >
+                <p>E-Commerce Mobile Apps (Self Project)</p>
+                <p>Made using Flutter</p>
+                <p class="view-details">View details</p></a
+              >
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/project_4.png" alt="" />
+            <div class="portfolio__link">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.maxpos.id&hl=id"
+                class="portfolio__link-name"
+              >
+                <p>MAXPOS.ID (Company Project)</p>
+                <p>Made using Flutter</p>
+                <!-- <p class="view-details">View details</p> -->
+              </a>
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/project_5.png" alt="" />
+            <div class="portfolio__link">
+              <a href="#" class="portfolio__link-name"
+                ><p>Jadian Apps (Company Project)</p>
+                <p>Made using Flutter</p>
+                <!-- <p class="view-details">View details</p> -->
+              </a>
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/project_6.jpg" alt="" />
+            <div class="portfolio__link">
+              <a href="#" class="portfolio__link-name">
+                <p>NataOne HR (Company Project)</p>
+                <p>Made using Angular</p>
+                <!-- <p class="view-details">View details</p> -->
+              </a>
+            </div>
+          </div>
+          <div class="portfolio__img">
+            <img src="assets/img/project_7.jpg" alt="" />
+            <div class="portfolio__link">
+              <a href="#" class="portfolio__link-name"
+                ><p>Juragan Gerobak (Company Project)</p>
+                <p>Made using Angular</p>
+                <!-- <p class="view-details">View details</p> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <div class="content">
+          <h1 class="title">
+            Contact
+            <div class="aurora">
+              <div class="clr"></div>
+              <div class="clr"></div>
+              <div class="clr"></div>
+              <div class="clr"></div>
+            </div>
+          </h1>
+        </div>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span class="contact__text">arqsamn@gmail.com</span>
+
+            <h3 class="contact__subtitle">PHONE</h3>
+            <span class="contact__text">+62 896-9647-4710</span>
+
+            <h3 class="contact__subtitle">ADRESS</h3>
+            <span class="contact__text">South Tangerang</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+          <h2 class="footer__title">ARIQ ALI SAMAN</h2>
+          <p class="footer__text">
+            I'm Ariq Ali Saman and this is my personal website
+          </p>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">EXPLORE</h2>
+          <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+            <li><a href="#Contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">FOLLOW</h2>
+          <div class="account">
+            <a href="https://instagram.com/arqsamn_"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/ariqalisaman/"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/AriqAliSaman"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
